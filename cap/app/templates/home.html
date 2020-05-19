@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block main %}
+<h1>Capstone Arbitrage</h1>
+<p class="lead">This is the webpage for our arbitrage.Use the header to navigate</p>
+<div class = "grids">
+<img src = {{url1}} alt = "plot">
+<img src = {{url2}} alt = "plot">
+<img src = {{url3}} alt = "plot">
+<img src = {{url4}} alt = "plot">
+<img src = {{url5}} alt = "plot">
+<img src = {{url6}} alt = "plot">
+</div>
+<br>
+<br>
+<a href = "{{url_for('home')}}"
+<button type="submit" id = "View">Update</button></a>
+{% endblock %}
